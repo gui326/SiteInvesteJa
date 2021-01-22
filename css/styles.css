@@ -1,0 +1,201 @@
+body{
+    background: white;
+}
+
+.navcor{
+    background: #11d15b;
+}
+
+
+a {
+    color:black;
+}
+
+.navbar a:hover {
+    color:white;
+    border-radius: 1em;
+    border: 1px solid white;
+}
+.navbar li:hover{
+}
+
+
+
+#botoes:hover{
+    white-space: normal;
+    color: black;
+    background-color: white;
+    border: 1px;
+    font-size: 50px;
+    border-radius: 1em;
+}
+
+#botoes{
+    background-color: #11d15b;
+    color: white;
+    font-size: 50px;
+    border-radius: 1em;
+    width: 400px;
+    height: 150px;
+    padding: 0px 0px;
+    
+    box-shadow:2px 1px 0px 2px #EEE inset;
+    
+}
+
+#letra{
+    color: black;
+    font-family:arial;
+}
+
+.logo img{
+    float:left;
+    width: 190px;
+    height: 60px;
+    padding: 0px 37px;
+}
+
+ul li{
+    display: inline-block; 
+    padding:10px;
+    font-size:20px; 
+    font-family:raleway;
+}
+
+nav ul{
+    padding: 0px 17px;
+}
+
+.navgui{
+    padding: 8px 0px;
+    box-shadow: 0 8px 4px 2px rgba(0,0,0,.2);
+
+}
+
+#aumento{
+    font-size: 59px;
+    color: white;
+    margin-top: 50px;
+    font-family:raleway;
+}
+
+
+
+h1 {
+    color: white;
+    font-family:arial;
+}
+
+h2 {
+    color: white;
+    font-family:arial;
+}
+
+@media (max-width: 550px) {
+    #botoes{
+        background-color: #11d15b;
+        color: white;
+        font-size: 50px;
+        border-radius: 1em;
+        width: 300px;
+        height: 100px;
+        padding: 0px 0px;
+        
+        box-shadow:2px 1px 0px 2px #EEE inset;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+ section {
+	 padding: 60px 0;
+}
+ section .section-title {
+	 text-align: center;
+	 color: #11d15b;
+	 margin-bottom: 50px;
+	 text-transform: uppercase;
+}
+ #footer p {
+	 color: #11d15b;
+}
+
+ #footer h1 {
+	 color: #11d15b;
+     font-size: 50px;
+     text-decoration: block;
+}
+
+ #footer h5 {
+	 padding-left: 10px;
+	 border-left: 3px solid #11d15b;
+	 padding-bottom: 6px;
+	 margin-bottom: 20px;
+	 color: #11d15b;
+}
+ #footer a {
+	 color: #11d15b;
+	 text-decoration: none !important;
+	 background-color: transparent;
+	 -webkit-text-decoration-skip: objects;
+}
+ #footer ul.social li {
+	 padding: 3px 0;
+}
+ #footer ul.social li a i {
+	 margin-right: 5px;
+	 font-size: 45px;
+	 -webkit-transition: 0.5s all ease;
+	 -moz-transition: 0.5s all ease;
+	 transition: 0.5s all ease;
+}
+ #footer ul.social li:hover a i {
+	 font-size: 70px;
+	 margin-top: -10px;
+     color: white;
+}
+ #footer ul.social li a, #footer ul.quick-links li a {
+	 color: #11d15b;
+}
+ #footer ul.social li a:hover {
+	 color: #11d15b;
+}
+ #footer ul.quick-links li {
+	 padding: 3px 0;
+	 -webkit-transition: 0.5s all ease;
+	 -moz-transition: 0.5s all ease;
+	 transition: 0.5s all ease;
+}
+ #footer ul.quick-links li:hover {
+	 padding: 3px 0;
+	 margin-left: 5px;
+	 font-weight: 700;
+}
+ #footer ul.quick-links li a i {
+	 margin-right: 5px;
+}
+ #footer ul.quick-links li:hover a i {
+	 font-weight: 700;
+}
+ @media (max-width: 767px) {
+	 #footer h5 {
+		 padding-left: 0;
+		 border-left: transparent;
+		 padding-bottom: 0px;
+		 margin-bottom: 10px;
+	}
+}
+ 
+/* Footer */
+ 
